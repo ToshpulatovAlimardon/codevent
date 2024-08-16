@@ -267,10 +267,16 @@
     line-height: 15px;
   }
 
-  .header-item:last-child span,
-  .header-item:last-child p {
-    font-size: 13px;
-    line-height: 15px;
+  .header-item:last-child span {
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    background-color: blue;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
   }
 }
 
@@ -310,5 +316,11 @@
     padding-left: 40px;
     padding-right: 40px;
     margin-top: -40px;
+  }
+
+  .header-item:last-child span {
+    font-size: 20px;
+    line-height: 22px;
+    padding: 10px 20px;
   }
 }
