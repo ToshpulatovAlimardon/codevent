@@ -43,7 +43,7 @@ ul li {
 .topbar .logo span {
   font-size: 32px;
   font-family: "Rubik Wet Paint", system-ui;
-  color: blue;
+  color: lime;
   font-weight: 400;
 }
 
@@ -66,7 +66,7 @@ ul li {
   content: "";
   width: 0%;
   height: 3px;
-  background-color: blue;
+  background-color: lime;
   display: inline-block;
   position: absolute;
   bottom: -5px;
@@ -148,12 +148,14 @@ ul li {
   padding: 17px 32px;
   border-radius: 12px;
   font-size: 18px;
-  color: #fff;
   font-weight: 600;
-  background-color: blue;
+  color: #2e2e2e;
+  background-color: lime;
+  box-shadow: 0 0 20px #777 inset, 0 0 5px #999;
   transition: .3s;
 }
 
 .btn:hover {
   background-color: black;
+  color: #fff;
 }
