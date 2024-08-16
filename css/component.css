@@ -71,7 +71,7 @@ ul li {
   position: absolute;
   bottom: -5px;
   left: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .navbar a:hover::after {
@@ -106,7 +106,7 @@ ul li {
     align-items: flex-start;
     left: 0;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
     background-color: #111827;
     box-shadow: 5px 0 5px #777;
     padding: 20px;
@@ -121,4 +121,39 @@ ul li {
   #navbar-status:checked ~ .navbar {
     transform: translateX(0);
   }
+}
+
+@media screen and (max-width: 499px) {
+  .topbar {
+    padding: 15px 5%;
+  }
+
+  .topbar .logo span {
+    font-size: 28px;
+  }
+
+  /* Navbar Toggler */
+  .topbar .navbar-toggler {
+    font-size: 28px;
+  }
+
+  .navbar {
+    height: 95vh;
+    margin-top: 65px;
+  }
+}
+
+/* BTN */
+.btn {
+  padding: 17px 32px;
+  border-radius: 12px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  background-color: blue;
+  transition: .3s;
+}
+
+.btn:hover {
+  background-color: black;
 }
