@@ -13,6 +13,6 @@ function updateCountdown() {
   minutes = minutes < 10 ? "0" + minutes : minutes;
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
-  countdownEl.innerHTML = `${hours}:${minutes}:${seconds}`;
+  countdownEl.innerHTML = `${hours}h:${minutes}m:${seconds}s`;
   time--;
 }
