@@ -1,12 +1,12 @@
-const startingMinutes = 24;
-let time = startingMinutes * 3600;
+const startingHour = 24;
+let time = startingHour * 3600;
 
 const countdownEl = document.querySelector("#countdown");
 
 setInterval(updateCountdown, 1000);
 
 function updateCountdown() {
-  const hours = Math.floor(time / 3600);
+  let hours = Math.floor(time / 3600);
   let minutes = Math.floor(time / 60 % 60);
   let seconds = time % 60;
 
