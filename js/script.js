@@ -1,5 +1,5 @@
-const startingHour = 24;
-let time = startingHour * 3600;
+const startingHour = 17;
+let time = startingHour * 3600 + 300;
 
 const countdownEl = document.querySelector("#countdown");
 
@@ -13,6 +13,6 @@ function updateCountdown() {
   minutes = minutes < 10 ? "0" + minutes : minutes;
   seconds = seconds < 10 ? "0" + seconds : seconds;
 
-  countdownEl.innerHTML = `${hours}h:${minutes}m:${seconds}s`;
+  countdownEl.innerHTML = `2kun ${hours}:${minutes}:${seconds}`;
   time--;
 }
