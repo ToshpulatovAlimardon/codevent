@@ -28,7 +28,7 @@
 
 .header-desc h1 {
   font-size: 60px;
-  margin-bottom: 72px;
+  margin-bottom: 40px;
 }
 
 .header-content .header-img {
@@ -101,7 +101,7 @@
 
   .header-desc h1 {
     font-size: 54px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .header-content .header-img {
@@ -165,7 +165,7 @@
 
   .header-desc h1 {
     font-size: 54px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   /* BTN */
@@ -231,7 +231,7 @@
 
   .header-desc h1 {
     font-size: 40px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
 
   /* BTN */
@@ -302,7 +302,7 @@
 
   .header-desc h1 {
     font-size: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
   }
 
   /* Header info */
@@ -540,7 +540,7 @@
     font-size: 34px;
     margin: 0 30px 30px;
   }
-  
+
   .wrapper .carousel {
     grid-auto-columns: calc((100% / 2) - 9px);
   }
@@ -558,5 +558,80 @@
 
   .wrapper .carousel {
     grid-auto-columns: 100%;
+  }
+}
+
+/* About Course */
+#about-course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0;
+  padding: 50px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 20px;
+}
+
+.about-course-img {
+  width: 30%;
+}
+
+.about-course-img img {
+  width: 100%;
+}
+
+.about-course-info {
+  width: 60%;
+}
+
+.about-course-info h2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.about-course-info p {
+  color: rgb(102, 102, 102);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 925px) {
+  /* About Course */
+  #about-course {
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .about-course-img {
+    width: 50%;
+  }
+
+  .about-course-info {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #about-course {
+    margin: 50px 0;
+    padding: 40px;
+    border-radius: 10px;
+  }
+
+  .about-course-info h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 15px;
+  }
+
+  .about-course-info p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 25px;
   }
 }

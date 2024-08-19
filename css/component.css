@@ -38,6 +38,7 @@ ul li {
   left: 0;
   width: 100%;
   box-shadow: 0 5px 5px #777;
+  z-index: 1010;
 }
 
 .topbar .logo span {
@@ -152,6 +153,7 @@ ul li {
   color: #2e2e2e;
   background-color: lime;
   box-shadow: 0 0 20px #777 inset, 0 0 5px #999;
+  display: inline-block;
   transition: .3s;
 }
 
