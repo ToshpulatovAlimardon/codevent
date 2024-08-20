@@ -504,6 +504,75 @@
       </div>
     </div>
 
+    <!-- Contact -->
+    <section class="contact" id="contacts">
+      <h2>Contact Me!</h2>
+      <div class="form container">
+        <form action="" onsubmit=" return sendtelegram()">
+          <div class="input-box">
+            <div class="input-field field">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Ismingiz"
+                class="item"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div class="input-field field">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email manzilingiz"
+                class="item"
+                required
+                autocomplete="off"
+              />
+            </div>
+          </div>
+          <div class="input-box">
+            <div class="input-field field">
+              <input
+                type="tel"
+                name="tel"
+                id="tel"
+                placeholder="Telefon raqamingiz"
+                class="item"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div class="input-field field">
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Fan nomi"
+                class="item"
+                required
+                autocomplete="off"
+              />
+            </div>
+          </div>
+          <div class="textarea-field field">
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Izoh qoldiring"
+              class="item"
+              required
+              autocomplete="off"
+            ></textarea>
+          </div>
+          <input type="submit" value="Yuborish" id="btn" />
+        </form>
+      </div>
+    </section>
+
     <script src="js/script.js"></script>
+    <script src="js/sendtelegram.js"></script>
   </body>
 </html>
