@@ -154,7 +154,7 @@ ul li {
   background-color: lime;
   box-shadow: 0 0 20px #777 inset, 0 0 5px #999;
   display: inline-block;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .btn:hover {
