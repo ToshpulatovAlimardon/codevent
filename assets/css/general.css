@@ -1087,6 +1087,10 @@ form #btn:hover {
 }
 
 @media screen and (max-width: 648px) {
+  .contact {
+    padding: 70px 0;
+  }
+
   .contact h2 {
     font-size: 36px;
     margin-bottom: 8px;
@@ -1123,6 +1127,10 @@ form #btn:hover {
 }
 
 @media screen and (max-width: 450px) {
+  .contact {
+    padding: 50px 0;
+  }
+
   .contact form {
     width: 300px;
   }
