@@ -1139,3 +1139,135 @@ form #btn:hover {
     height: 200px;
   }
 }
+
+/* Modul */
+#select {
+  background-color: #111827;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  padding: 100px 0;
+}
+
+.select-list.hide {
+  display: none;
+}
+
+/* Select title */
+.modul .select-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 24px;
+  border-radius: 10px;
+  background-color: #0e131f;
+  cursor: pointer;
+  border: 1px solid rgb(30, 41, 59);
+  margin-bottom: 5px;
+  box-shadow: 0 0 10px #1e293b;
+  transition: 0.3s;
+}
+
+.modul .select-title:hover {
+  background-color: #1f2937;
+}
+
+.modul .select-title i {
+  font-size: 28px;
+  transition: 0.3s;
+  transform: rotate(-180deg);
+}
+
+.modul .select-title:hover i {
+  transform: rotate(0deg);
+}
+
+.modul .select-title h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Select list */
+.select-list .select-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 24px 15px 15px;
+  background-color: #111827;
+  margin: 8px 6px 0;
+  cursor: pointer;
+}
+
+.select-list .select-item:last-child {
+  margin: 8px 6px 6px;
+}
+
+.select-list .select-item:hover {
+  background-color: #1e293b;
+}
+
+.select-item li {
+  font-size: 16px;
+}
+
+.select-item i {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 725px) {
+  #select {
+    padding: 80px 0;
+  }
+
+  /* Select title */
+  .modul .select-title i {
+    font-size: 24px;
+  }
+
+  .modul .select-title h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  #select {
+    padding: 50px 0;
+  }
+
+  #select .container {
+    width: 90%;
+  }
+
+  /* Select title */
+  .modul .select-title {
+    padding: 13px 20px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    box-shadow: 0 0 8px #1e293b;
+  }
+
+  .modul .select-title i {
+    font-size: 20px;
+  }
+
+  .modul .select-title h2 {
+    font-size: 18px;
+  }
+
+  /* Select list */
+  .select-list .select-item {
+    padding: 13px 20px 13px 13px;
+    margin: 6px 5px 0;
+  }
+
+  .select-list .select-item:last-child {
+    margin: 6px 5px 5px;
+  }
+
+  .select-item li {
+    font-size: 14px;
+  }
+  
+  .select-item i {
+    font-size: 14px;
+  }
+}

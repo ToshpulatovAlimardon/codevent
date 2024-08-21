@@ -96,3 +96,13 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", InfiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
+
+// Modul
+const selectTitles = document.querySelectorAll(".modul .select-title");
+
+selectTitles.forEach((title) => {
+  title.addEventListener("click", () => {
+    const list = title.nextElementSibling;
+    list.classList.toggle("hide");
+  });
+});
