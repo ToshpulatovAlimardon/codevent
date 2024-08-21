@@ -1142,10 +1142,13 @@ form #btn:hover {
 
 /* Modul */
 #select {
-  background-color: #111827;
-  color: #fff;
+  background-color: rgb(245, 245, 245);
+  width: 90%;
+  margin: 100px auto;
+  color: #000;
   font-family: "Montserrat", sans-serif;
   padding: 100px 0;
+  border-radius: 30px;
 }
 
 .select-list.hide {
@@ -1159,16 +1162,15 @@ form #btn:hover {
   align-items: center;
   padding: 15px 24px;
   border-radius: 10px;
-  background-color: #0e131f;
+  background-color: #fff;
   cursor: pointer;
-  border: 1px solid rgb(30, 41, 59);
   margin-bottom: 5px;
-  box-shadow: 0 0 10px #1e293b;
+  box-shadow: 0 0 10px rgb(235, 235, 235);
   transition: 0.3s;
 }
 
 .modul .select-title:hover {
-  background-color: #1f2937;
+  background-color: rgb(235, 235, 235);
 }
 
 .modul .select-title i {
@@ -1192,7 +1194,7 @@ form #btn:hover {
   justify-content: space-between;
   align-items: center;
   padding: 15px 24px 15px 15px;
-  background-color: #111827;
+  background-color: #fff;
   margin: 8px 6px 0;
   cursor: pointer;
 }
@@ -1202,7 +1204,7 @@ form #btn:hover {
 }
 
 .select-list .select-item:hover {
-  background-color: #1e293b;
+  background-color: rgb(235, 235, 235);
 }
 
 .select-item li {
@@ -1211,6 +1213,7 @@ form #btn:hover {
 
 .select-item i {
   font-size: 16px;
+  color: lime;
 }
 
 @media screen and (max-width: 725px) {
@@ -1242,7 +1245,7 @@ form #btn:hover {
     padding: 13px 20px;
     border-radius: 8px;
     margin-bottom: 4px;
-    box-shadow: 0 0 8px #1e293b;
+    box-shadow: 0 0 8px rgb(235, 235, 235);
   }
 
   .modul .select-title i {
