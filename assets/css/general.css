@@ -1155,6 +1155,13 @@ form #btn:hover {
   display: none;
 }
 
+/* Modul Title */
+.modul-title h1 {
+  margin-bottom: 32px;
+  font-size: 52px;
+  font-weight: 500;
+}
+
 /* Select title */
 .modul .select-title {
   display: flex;
@@ -1240,6 +1247,12 @@ form #btn:hover {
     width: 90%;
   }
 
+  /* Modul Title */
+  .modul-title h1 {
+    margin-bottom: 25px;
+    font-size: 36px;
+  }
+
   /* Select title */
   .modul .select-title {
     padding: 13px 20px;
@@ -1269,7 +1282,7 @@ form #btn:hover {
   .select-item li {
     font-size: 14px;
   }
-  
+
   .select-item i {
     font-size: 14px;
   }
