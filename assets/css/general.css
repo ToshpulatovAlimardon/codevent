@@ -1163,6 +1163,27 @@ form #btn:hover {
   font-weight: 500;
 }
 
+/* Modul item title */
+#select .modul-item-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+#select .modul-item-title h2 {
+  font-weight: 600;
+  font-size: 22px;
+  color: lime;
+  text-transform: uppercase;
+}
+
+#select .modul-item-title i {
+  font-size: 28px;
+  color: lime;
+  margin-right: 6px;
+}
+
 /* Select title */
 .modul .select-title {
   display: flex;
