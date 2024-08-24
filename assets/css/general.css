@@ -1265,17 +1265,17 @@ form #btn:hover {
   #select {
     padding: 50px 0;
   }
-
+  
   #select .container {
     width: 90%;
   }
-
+  
   /* Modul Title */
   .modul-title h1 {
     margin-bottom: 25px;
     font-size: 36px;
   }
-
+  
   /* Select title */
   .modul .select-title {
     padding: 13px 20px;
@@ -1283,15 +1283,19 @@ form #btn:hover {
     margin-bottom: 4px;
     box-shadow: 0 0 8px rgb(235, 235, 235);
   }
-
+  
   .modul .select-title i {
     font-size: 20px;
   }
-
+  
   .modul .select-title h2 {
     font-size: 18px;
   }
-
+  
+  .modul-js .modul-item-title h2 {
+    font-size: 18px!important;
+  }
+  
   /* Select list */
   .select-list .select-item {
     padding: 13px 20px 13px 13px;
