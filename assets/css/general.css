@@ -1,6 +1,6 @@
 /* Header */
 #header {
-  background-color: #2e2e2e;
+  background-color: #1f242d;
   margin: 120px 5%;
   border-radius: 32px;
   padding: 40px 0 64px;
@@ -1028,6 +1028,8 @@
   font-family: "Poppins", sans-serif;
   background: #1f242d;
   padding: 120px 0;
+  margin: 0 60px 50px;
+  border-radius: 50px;
 }
 .contact h2 {
   font-size: 40px;
@@ -1051,7 +1053,7 @@ form .input-box {
   width: 100%;
   padding: 18px;
   background: transparent;
-  border: 2px solid #0ef;
+  border: 2px solid lime;
   outline: none;
   border-radius: 6px;
   font-size: 16px;
@@ -1069,11 +1071,11 @@ form .input-box {
 }
 form #btn {
   padding: 12px 32px;
-  background: #0ef;
+  background: lime;
   border: none;
   outline: none;
   border-radius: 6px;
-  box-shadow: 0 0 10px #0ef;
+  box-shadow: 0 0 10px lime;
   font-size: 16px;
   color: #333;
   letter-spacing: 1px;
@@ -1087,6 +1089,24 @@ form #btn:hover {
   box-shadow: none;
 }
 
+
+@media screen and (max-width: 777px) {
+  .contact {
+    padding: 100px 0;
+    margin: 0 40px 40px;
+    border-radius: 30px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+
+  .form .textarea-field .item {
+    width: 100%;
+    height: 250px;
+  }
+}
+
 @media screen and (max-width: 648px) {
   .contact {
     padding: 70px 0;
@@ -1096,9 +1116,7 @@ form #btn:hover {
     font-size: 36px;
     margin-bottom: 8px;
   }
-  .contact form {
-    width: 400px;
-  }
+
   form .input-box {
     flex-direction: column;
   }
@@ -1107,7 +1125,7 @@ form #btn:hover {
   }
   .field .item {
     padding: 15px;
-    border: 1.5px solid #0ef;
+    border: 1.5px solid lime;
     border-radius: 5px;
     font-size: 14px;
     margin: 10px 0;
@@ -1122,7 +1140,6 @@ form #btn:hover {
     height: 100px;
   }
   .form .textarea-field .item {
-    width: 400px;
     height: 240px;
   }
 }
@@ -1130,13 +1147,11 @@ form #btn:hover {
 @media screen and (max-width: 450px) {
   .contact {
     padding: 50px 0;
+    margin: 0 20px 20px;
+    border-radius: 20px;
   }
 
-  .contact form {
-    width: 300px;
-  }
   .form .textarea-field .item {
-    width: 300px;
     height: 200px;
   }
 }

@@ -67,7 +67,8 @@ ul li {
 .navbar a::after {
   content: "";
   width: 0%;
-  height: 3px;
+  height: 2.5px;
+  border-radius: 10px;
   background-color: lime;
   display: inline-block;
   position: absolute;
@@ -156,6 +157,7 @@ ul li {
   box-shadow: 0 0 20px #777 inset, 0 0 5px #999;
   display: inline-block;
   transition: 0.3s;
+  border: none;
 }
 
 .btn:hover {
