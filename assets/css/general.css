@@ -672,7 +672,7 @@
   width: 30%;
 }
 
-.resume-author img {
+.resume-author video {
   width: 180px;
   border-radius: 50%;
   margin-bottom: 40px;
@@ -833,7 +833,7 @@
     text-align: start;
   }
 
-  .resume-author img {
+  .resume-author video {
     width: 100px;
     margin-bottom: 0px;
     margin-right: 20px;
@@ -978,7 +978,7 @@
     text-align: center;
   }
 
-  .resume-author img {
+  .resume-author video {
     margin-bottom: 7px;
     margin-right: 0px;
   }
