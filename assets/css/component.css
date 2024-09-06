@@ -42,11 +42,15 @@ ul li {
   z-index: 1010;
 }
 
-.topbar .logo span {
-  font-size: 32px;
-  font-family: "Rubik Wet Paint", system-ui;
-  color: lime;
-  font-weight: 400;
+.topbar .logo {
+  height: 50px;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+.topbar .logo img {
+  height: 140px;
 }
 
 .navbar {
@@ -155,7 +159,6 @@ ul li {
   font-weight: 600;
   color: #2e2e2e;
   background-color: lime;
-  box-shadow: 0 0 20px #777 inset, 0 0 5px #999;
   display: inline-block;
   transition: 0.3s;
   border: none;
