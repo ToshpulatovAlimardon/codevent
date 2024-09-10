@@ -86,6 +86,23 @@ ul li {
   color: blue;
 }
 
+/* Topbar btn */
+.navbar .topbar-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: black;
+  font-weight: 500;
+}
+
+.topbar-btn i {
+  font-size: 24px;
+}
+
+.navbar .topbar-btn::after {
+  background-color: #111827;
+}
+
 /* Navbar Toggler */
 .topbar .navbar-toggler {
   color: #fff;
@@ -99,7 +116,7 @@ ul li {
 }
 
 /* Topbar media */
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 1238px) {
   /* Navbar Toggler */
   .topbar .navbar-toggler {
     visibility: visible;
