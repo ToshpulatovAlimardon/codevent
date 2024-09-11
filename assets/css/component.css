@@ -32,10 +32,10 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
+  padding: 10px 10%;
   background-color: #111827;
   position: fixed;
-  top: 0;
+  top: 59px;
   left: 0;
   width: 100%;
   box-shadow: 0 5px 5px #777;
@@ -91,8 +91,9 @@ ul li {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: black;
+  color: white;
   font-weight: 500;
+  padding: 12px 20px;
 }
 
 .topbar-btn i {
@@ -156,7 +157,7 @@ ul li {
   .topbar .logo {
     height: 40px;
   }
-  
+
   .topbar .logo img {
     height: 120px;
   }
@@ -175,17 +176,17 @@ ul li {
 /* BTN */
 .btn {
   padding: 17px 32px;
-  border-radius: 12px;
+  border-radius: 10px;
   font-size: 18px;
   font-weight: 600;
-  color: #2e2e2e;
-  background-color: lime;
+  color: white;
+  background-color: blue;
   display: inline-block;
   transition: 0.3s;
   border: none;
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: #2e2e2e;
   color: #fff;
 }
