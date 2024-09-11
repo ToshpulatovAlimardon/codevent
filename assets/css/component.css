@@ -34,13 +34,14 @@ ul li {
   font-size: 18px;
   font-weight: 600;
   color: white;
-  background-color: blue;
+  background-image: linear-gradient(to left top, #031a9a, #8b53ff, #031a9a);
+  background-size: 100% 200%;
   display: inline-block;
   transition: 0.3s;
   border: none;
 }
 
 .btn:hover {
-  background-color: #2e2e2e;
+  background-position: right;
   color: #fff;
 }
