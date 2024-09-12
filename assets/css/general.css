@@ -337,7 +337,7 @@
 /* Header */
 #header {
   background-color: #1f242d;
-  margin: 150px 5%;
+  margin: 150px 5% 100px;
   border-radius: 32px;
   padding: 40px 0 64px;
 }
