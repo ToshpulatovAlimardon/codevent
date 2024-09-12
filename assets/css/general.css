@@ -659,9 +659,10 @@
 #about {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
-  margin-bottom: 120px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #about .about-info {
@@ -673,13 +674,18 @@
   line-height: 48px;
   letter-spacing: -0.02em;
   font-weight: 500;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 .about-info p {
   font-size: 18px;
   color: rgb(102, 102, 102);
   font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.about-info .about-btn {
+  margin-top: 15px;
 }
 
 #about .about-img {
@@ -701,11 +707,21 @@
   }
 
   #about .about-info {
-    width: 100%;
+    width: 50%;
   }
 
   #about .about-img {
-    width: 100%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #about .about-info {
+    width: 75%;
+  }
+
+  #about .about-img {
+    width: 75%;
   }
 }
 
@@ -731,6 +747,14 @@
   /* About */
   #about {
     gap: 28px;
+  }
+
+  #about .about-info {
+    width: 90%;
+  }
+
+  #about .about-img {
+    width: 90%;
   }
 
   .about-info h2 {
@@ -1568,7 +1592,6 @@ form #btn:hover {
   background-color: #fff;
   width: 100%;
   text-align: center;
-  pointer-events: none;
 }
 
 @media screen and (max-width: 1250px) {
