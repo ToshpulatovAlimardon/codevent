@@ -178,7 +178,9 @@
   }
 }
 
-/* Topbar */
+/**============================================
+ *               Topbar
+ *=============================================**/
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -258,9 +260,11 @@
 /* Navbar Toggler */
 .topbar .navbar-toggler {
   color: #fff;
-  font-size: 32px;
+  font-size: 38px;
   visibility: hidden;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 #navbar-status {
@@ -277,8 +281,8 @@
   .navbar {
     position: fixed;
     width: 280px;
-    height: 90vh;
-    margin-top: 90px;
+    height: 85vh;
+    margin-top: 130px;
     flex-direction: column;
     align-items: flex-start;
     left: 0;
@@ -306,11 +310,15 @@
     padding: 5px 10%;
     top: 53px;
   }
+
+  .navbar {
+    margin-top: 114px;
+  }
 }
 
 @media screen and (max-width: 499px) {
   .topbar {
-    padding: 5px 5% 5px 2%;
+    padding: 5px 7% 5px 2%;
   }
 
   .topbar .logo {
@@ -321,14 +329,8 @@
     height: 120px;
   }
 
-  /* Navbar Toggler */
-  .topbar .navbar-toggler {
-    font-size: 28px;
-  }
-
   .navbar {
-    height: 95vh;
-    margin-top: 70px;
+    margin-top: 105px;
   }
 }
 
