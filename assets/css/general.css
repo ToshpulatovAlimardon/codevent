@@ -1536,7 +1536,6 @@ form #btn:hover {
 .kurslar-content .kurslar-item {
   background-color: rgb(249, 250, 251);
   width: 32%;
-  min-height: 250px;
   padding: 32px;
   border-radius: 20px;
   transition: 0.3s ease-in;
@@ -1583,23 +1582,39 @@ form #btn:hover {
 /* Kurs Item Button */
 .kurslar-item .kurs-item-btn {
   display: flex;
-  flex-direction: column;
   align-items: start;
-  gap: 10px;
+  justify-content: end;
+  gap: 15px;
 }
 
 .kurs-item-btn a {
-  padding: 8px 16px;
-  border-radius: 50px;
-  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 5px #ccc;
+}
+
+.kurs-item-btn a img {
   width: 100%;
-  text-align: center;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1250px) {
   /* Kurslar Item */
   .kurslar-content .kurslar-item {
     width: 48%;
+  }
+
+  /* Kurs Item Button */
+  .kurslar-item .kurs-item-btn {
+    gap: 10px;
+  }
+
+  .kurs-item-btn a {
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -1623,10 +1638,6 @@ form #btn:hover {
 
 @media screen and (max-width: 800px) {
   /* Kurslar Item */
-  .kurslar-content .kurslar-item {
-    min-height: 200px;
-  }
-
   .kurs-item-info .kurs-item-info-img {
     width: 50px;
     height: 50px;
@@ -1640,13 +1651,18 @@ form #btn:hover {
   .kurslar-item .kurs-item-info-text span {
     font-size: 15px;
   }
+
+  /* Kurs Item Button */
+  .kurs-item-btn a {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media screen and (max-width: 700px) {
   /* Kurslar Item */
   .kurslar-content .kurslar-item {
     width: 100%;
-    min-height: 100%;
   }
 
   .kurs-item-info .kurs-item-info-img {
@@ -1663,8 +1679,14 @@ form #btn:hover {
     font-size: 20px;
   }
 
+  /* Kurs Item Button */
+  .kurslar-item .kurs-item-btn {
+    gap: 15px;
+  }
+
   .kurs-item-btn a {
-    padding: 10px 16px;
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -1689,8 +1711,14 @@ form #btn:hover {
     font-size: 17px;
   }
 
+  /* Kurs Item Button */
+  .kurslar-item .kurs-item-btn {
+    gap: 10px;
+  }
+
   .kurs-item-btn a {
-    padding: 8px 10px;
+    width: 80px;
+    height: 80px;
   }
 }
 
@@ -1717,6 +1745,12 @@ form #btn:hover {
 }
 
 @media screen and (max-width: 400px) {
+  /* Kurslar Item */
+  .kurslar-content .kurslar-item {
+    padding: 25px;
+    border-radius: 15px;
+  }
+
   .kurs-item-info .kurs-item-info-img {
     width: 50px;
     height: 50px;
@@ -1732,9 +1766,10 @@ form #btn:hover {
     font-size: 15px;
   }
 
+  /* Kurs Item Button */
   .kurs-item-btn a {
-    padding: 7px 10px;
-    font-size: 14px;
+    width: 70px;
+    height: 70px;
   }
 }
 
